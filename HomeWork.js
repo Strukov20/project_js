@@ -88,10 +88,7 @@ let appData = {
         appData.income.forEach (function (itemmassive, i) {
             alert("Способы доп. заработка: " + (i+1) + " - " + itemmassive);
         });
-
     }
-
-
 };
 
 for (let key in appData) {
